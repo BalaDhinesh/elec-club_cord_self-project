@@ -1,8 +1,13 @@
 # Problem Statement:
 To make a simple device which alerts the user when he touches his face using his hands. This device helps us to prevent coronavirus spread.
 
+# Team Members:
+
+1. [DHINESH](https://github.com/BalaDhinesh)
+2. [SHARANESH](https://github.com/rsharanesh-iitm)
+
 ## Description of the project:
-On an average, people touch their face 23 times per hour using their hands. In the age of coronavirus, we all have to resist the urge to touch our faces because there is a very high risk of getting affected by coronavirus due to germs present in our hands. But it is diffcult for people to develop this habit since without our knowledge, we have the habit of touching the facial parts often. One way to avoid doing this habit is to develop another habit of not touching their face. So, I decided to come up with an idea to develop the training of not touching their face by a device.
+On an average, people touch their face 23 times per hour using their hands. In the age of coronavirus, we all have to resist the urge to touch our faces because there is a very high risk of getting affected by coronavirus due to germs present in our hands. But it is diffcult for people to develop this habit since without our knowledge, we have the habit of touching the facial parts often. One way to avoid doing this habit is to develop another habit of not touching their face. So, we decided to come up with an idea to develop the training of not touching their face by a device.
 
 
 This is a small disposable electronic device that attaches to a users wrists and will monitor hand motion and when the hand position is close to face (Above the shoulders) will emit a small, harmless electrical pulses (no more than 1 Second) to that wrist or Vibrational Stimulus.  This electrical pulse or small vibration is intended to silently alert user that their hands are in close proximity to the face.  It is designed for easy to use user experience to lightly remind users to refrain from unnecessarily touching their mouth, nose, and eyes.
