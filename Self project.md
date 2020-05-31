@@ -14,7 +14,7 @@ Two devices are needed to have it on both hands. However, we can use a single de
 ## Components Required:
 - Microchip ATtiny85
 - Accelerometer
-- Coin cell battery
+- Coin cell battery x 2
 - Vibration sensor
 
 
@@ -34,3 +34,7 @@ __Here is an idea of approach on how the product finally look like:__
 
 
 ![](https://hackster.imgix.net/uploads/attachments/1102402/ks969411919_106_copy_NQhzvwtCQE.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+
+## Feasibilty check:
+- ATtiny
