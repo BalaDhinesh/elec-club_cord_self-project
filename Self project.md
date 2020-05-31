@@ -8,21 +8,28 @@ On an average, people touch their face 23 times per hour using their hands. In t
 This is a small disposable electronic device that attaches to a users wrists and will monitor hand motion and when the hand position is close to face (Above the shoulders) will emit a small, harmless electrical pulses (no more than 1 Second) to that wrist or Vibrational Stimulus.  This electrical pulse or small vibration is intended to silently alert user that their hands are in close proximity to the face.  It is designed for easy to use user experience to lightly remind users to refrain from unnecessarily touching their mouth, nose, and eyes.
 
 
+
 Two devices are needed to have it on both hands. However, we can use a single device by wearing in the hands alternatively. The goal is to get to avoid the habit of touching the face.
 
 
 ## Components Required:
 - Microchip ATtiny85
 - Accelerometer
-- Coin cell battery x 2
+- CR1220 3V Lithium Coin Cell
 - Vibration sensor
+- Push button(one for power on and one for load)
 
 
 
 ## Ideation:
 A low power accelerometer is used to continuously monitor the hands motion. Microcontroller is used to store the information and helps as to when to produce electrical pulses/vibrations. Basically the device will calibrate the face position(accelerometer value) when power button is pressed and keeping the device near the face. Now, it is calibrated and stored the value in the microcontroller. Some coding part has to be done in the microcontroller for some range of values near to the calibrated value(For more accurate measurements, we can calibrate different parts like nose, mouth, eyes etc.,). It is then ready to use.
 
-However, this prototype will work perfectly only when he is static or moving with the same height from the base. We need to design a prototype which satisfies other situations too like climbing stairs or when our body position changes from sitting to standing or vice versa. I am working on those areas and will come up with an idea as soon as possible.
+When the power on button is pressed, the device is ready for calibration. To calibrate, keep near the face the device and push the load button. Now the device note the accelerometer readings. Now, the microcontroller sets some threshold values in all 3 axis. The device is now ready to use. whenever the user places his/her hand near their face, the device produce an electric pulse to alert the user. 
+
+If the user wants to change the position, load button should be pressed again keeping the hands near to his hands to calibrate it again.
+
+
+Note that this prototype will work perfectly only when he is static or moving with the same height from the base. We need to design a prototype which satisfies other situations too like climbing stairs or when our body position changes from sitting to standing or vice versa. I am working on those areas and will come up with an idea as soon as possible.
 
 
 ## Design:
