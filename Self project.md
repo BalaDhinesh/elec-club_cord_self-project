@@ -53,7 +53,7 @@ __Here is an idea of approach on how the product finally look like:__
 
 
 ## Feasibilty check:
-- From the document of ATtiny85, it is shown that this microcontroller can be operated between 2.7-5.5 volts. Hence power supply by two 3V coin cell battery is more than enough to operate.
+- From the document of ATtiny85 and LIS2DH12TR, it is shown that this device is good enough to supply with two coin cell batteries.
 
 
 ## Datasheets:
