@@ -14,9 +14,8 @@ Two devices are needed to have it on both hands. However, we can use a single de
 
 ## Components Required:
 - Microchip ATtiny85
-- Accelerometer
+- Accelerometer LIS2DH12TR
 - CR1220 3V Lithium Coin Cell
-- Vibration sensor
 - Push button(one for power on and one for load)
 
 
@@ -29,7 +28,12 @@ When the power on button is pressed, the device is ready for calibration. To cal
 If the user wants to change the position, load button should be pressed again keeping the hands near to his hands to calibrate it again.
 
 
-Note that this prototype will work perfectly only when he is static or moving with the same height from the base. We need to design a prototype which satisfies other situations too like climbing stairs or when our body position changes from sitting to standing or vice versa. I am working on those areas and will come up with an idea as soon as possible.
+
+This prototype will work perfectly only when he is static or moving with the same height from the basement. However in most cases in our daily routine like studying, at classroom, playing sports etc., the height from the basement will be almost be the same. If we want change our position(like changing the position from sit to stand or vice-versa), it is very simple to calibrate it again by just pressing the button.
+
+
+
+
 
 
 ## Design:
@@ -44,4 +48,17 @@ __Here is an idea of approach on how the product finally look like:__
 
 
 ## Feasibilty check:
-- ATtiny
+- From the document of ATtiny85, it is shown that this microcontroller can be operated between 2.7-5.5 volts. Hence power supply by two 3V coin cell battery is more than enough to operate.
+
+
+## Datasheets:
+1.[ATtiny85](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf)
+
+2.[LIS2DH12TR](https://www.st.com/en/mems-and-sensors/lis2dh12.html)
+
+
+## Ideas inspired from the following links:
+
+1.https://www.hackster.io/shockbit1/shockbit-1f46e4
+
+2.https://immutouch.com/
