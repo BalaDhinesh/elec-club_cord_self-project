@@ -52,6 +52,8 @@ __Here is an idea of approach on how the product finally look like:__
 ![](https://hackster.imgix.net/uploads/attachments/1102402/ks969411919_106_copy_NQhzvwtCQE.jpg?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 
+
+
 ## Feasibilty check:
 - From the document of ATtiny85 and LIS2DH12TR, it is shown that this device is good enough to supply with two coin cell batteries.
 
@@ -67,3 +69,5 @@ __Here is an idea of approach on how the product finally look like:__
 1.https://www.hackster.io/shockbit1/shockbit-1f46e4
 
 2.https://immutouch.com/
+
+3.[Programming ATtiny with arduino:](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829)
