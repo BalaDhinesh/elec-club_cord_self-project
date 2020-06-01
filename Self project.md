@@ -71,3 +71,15 @@ __Here is an idea of approach on how the product finally look like:__
 2.https://immutouch.com/
 
 3.[Programming ATtiny with arduino:](https://create.arduino.cc/projecthub/arjun/programming-attiny85-with-arduino-uno-afb829)
+
+
+## Bill of materials:
+
+| S.No  | Name | Link to buy  | Quantity  | Cost(INR)  | Price |
+|---|---|---|---|---|---|
+| 1. | Microcontroller ATtiny85 | [Click here](https://robu.in/product/attiny85-usb-development-board/) | 1 | 140 | 140 |
+| 2. | Accelerometer LIS2DH12TR | [Click here](https://www.mouser.in/ProductDetail/STMicroelectronics/LIS2DH12TR?qs=%2Fha2pyFaduiSlYjOgAqc%252BtQxLjF6aDixIKg7brTdDQMuXy5jeCbmSg%3D%3D) | 1 | 112 | 112 |
+| 3. | Push button | [Click here](https://robu.in/product/6x6x5-tactile-push-button-switch/) | 2 | 50 | 50 |
+| 4. | Coin Cell Battery | [Click here](https://www.electroncomponents.com/CR-1220-Maxell-Lithium-Battery-Cell-3v) | 2 | 50 | 100|
+
+__Total Cost:__ 402INR
